@@ -61,6 +61,7 @@ NAN_METHOD(CouchbaseImpl::fnControl)
     case LCB_CNTL_DURABILITY_INTERVAL:
     case LCB_CNTL_DURABILITY_TIMEOUT:
     case LCB_CNTL_OP_TIMEOUT:
+    case LCB_CNTL_N1QL_TIMEOUT:
     {
         lcb_uint32_t tmoval;
         if (option == LCB_CNTL_GET) {

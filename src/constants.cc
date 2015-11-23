@@ -19,6 +19,7 @@ Handle<Object> CouchbaseImpl::createConstants()
     X(CNTL_SET) \
     X(CNTL_GET) \
     X(CNTL_OP_TIMEOUT) \
+    X(CNTL_N1QL_TIMEOUT) \
     X(CNTL_DURABILITY_INTERVAL) \
     X(CNTL_DURABILITY_TIMEOUT) \
     X(CNTL_HTTP_TIMEOUT) \
